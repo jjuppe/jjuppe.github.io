@@ -34,6 +34,7 @@ footer-links:
 # theme
 remote_theme: "poole/hyde"
 
+
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
@@ -78,7 +79,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
+  
 plugins:
   - jekyll-remote-theme
 
