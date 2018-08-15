@@ -4,3 +4,4 @@ title: Blog
 permalink: /blog/
 ---
 
+{% include home.html}
