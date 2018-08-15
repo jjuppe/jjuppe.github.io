@@ -3,7 +3,7 @@ layout: home
 title: Blog
 permalink: /blog/
 ---
-
+<html>
 <div class="posts">
     {% for post in paginator.posts %}
     <div class="post-teaser">
@@ -34,3 +34,4 @@ permalink: /blog/
     </div>
     {% endfor %}
   </div>
+</html>
