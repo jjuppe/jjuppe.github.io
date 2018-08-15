@@ -1,14 +1,14 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://jjuppe.github.io"
-title: "Data Science for Beginners" # site's title
-description: "Python, Machine Learning, Deep Learning" # used by search engines
+title: "Janis Juppe" # site's title
+description: "Python, Machine Learning, Deep Learning & other stuff" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: One Hot Encoder # blog's title
+  title: Janis Juppe # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.icon
   gravatar: # Email MD5 hash
