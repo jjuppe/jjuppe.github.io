@@ -4,4 +4,4 @@ title: Blog
 permalink: /blog/
 ---
 
-{% layout home.html %}
+{{ _layouts.home.html }}
