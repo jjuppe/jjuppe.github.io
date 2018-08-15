@@ -6,9 +6,8 @@ feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About, Archive]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Hi there! My name is Janis, I am currently studying Management and Computer Science at TUM in beautiful Munich. 
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+This is my blog about my journey of embarking into the world of Python and Machine Learning. I am hoping that the posts help other people just like me to make the journey easier and learn from the lessons I have learned. 
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+Feel free to contact me via email if you have ideas for a collaboration. I am always open to new adventures. 
