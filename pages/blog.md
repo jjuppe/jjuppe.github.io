@@ -3,7 +3,14 @@ layout: default
 title: Blog
 permalink: /blog/
 ---
-
+<div class="home">
+  {% if site.theme_settings.header_text %}
+  <div id="main" class="call-out"
+  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+    {{ site.theme_settings.header_text }}
+  </div>
+  {% endif %}
+    
 <div class="posts">
     {% for post in paginator.posts %}
     <div class="post-teaser">
