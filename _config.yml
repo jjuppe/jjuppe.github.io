@@ -8,17 +8,17 @@ description: "Python, Machine Learning, Deep Learning & other stuff" # used by s
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Janis Juppe # blog's title
+  title: Janis Juppe  # blog's title
   avatar: assets/img/triangle.svg
-  favicon: assets/favicon.icon
+  favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>This blog is documentating my own progress <br> of learning about Python and Machine Learning.</p>
+     <p>The key to artificial intelligence has always been the representation.<br> —Jeff Hawkins </p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> 
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
@@ -49,12 +49,12 @@ theme_settings:
   share_buttons:
     facebook: true
     twitter: true
-    google_plus: true
+    google_plus: 
     tumblr:
-    pinterest:
+    pinterest: true
     pocket:
     reddit: true
-    linkedin:
+    linkedin: true
     wordpress:
     email: true
 
