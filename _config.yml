@@ -59,8 +59,8 @@ theme_settings:
     email: true
 
   # Scripts / Features 
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: "UA-124185946-1"# Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname: "Janis"
   katex: true # Enable if using math markup
   
   special_page:
@@ -100,10 +100,10 @@ paginate_path: "blog/page:num"
 
 
 # PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
+# collections:
+ # portfolio:
+   # output: true
+   # permalink: /:collection/:name
 
 
 # BUILD SETTINGS
