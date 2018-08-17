@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 feature-img: "assets/img/pexels/circuit.jpeg"
 tags: [About, Archive]
+order: 2
 ---
 
 Hi there! My name is Janis, I am currently studying Management and Computer Science at TUM in beautiful Munich. 

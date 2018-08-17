@@ -21,8 +21,8 @@
     <ul class="hide">
         <!-- Auto Generation of NORMAL pages in the navbar -->
         {% assign name_page = "" %}
-        
-        {% for page in site.pages %}
+        {% assign sorted_pages = site.pages | sort:"order" %}
+        {% for page in sorted_pages %}
         {% if page.title and page.hide != true %}
         {% if name_page contains page.title %}
         {% else %}

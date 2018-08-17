@@ -3,6 +3,7 @@ layout: page
 title: Resume
 permalink: /resume/
 tags: [resume]
+order: 3 
 ---
 
 <object data="/assets/Lebenslauf-Juppe.pdf" type="application/pdf" width="750px" height="750px">
