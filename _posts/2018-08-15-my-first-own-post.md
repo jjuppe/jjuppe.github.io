@@ -2,7 +2,6 @@
 layout: post
 title: Setting up an Anaconda environment
 tags: [Introduction, Anaconda, NumPy, Scikit-learn, Python]
-excerpt_separator: <!--more-->
 ---
 
 # What is Anaconda?
