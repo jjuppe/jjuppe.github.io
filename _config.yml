@@ -60,7 +60,7 @@ theme_settings:
 
   # Scripts / Features 
   google_analytics: "UA-124185946-1"# Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname: "Janis"
+  disqus_shortname: "jjuppe-github-io"
   katex: true # Enable if using math markup
   
   special_page:
