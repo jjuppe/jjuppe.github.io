@@ -53,7 +53,7 @@ Click on New Project - then a setup page should show:
 
 ![Setup]({{site.baseurl}}/assets/img/set-environment.png)
 
-Our project is going to be a Pure Python project. The important part is the interpreter. I remeber that by default this was set to a virtual environment. This might be what you want when working in a very specific project setting but most people probably want access to all the packages they installed in the normal environment. An evironment refers to certain Python version and some packages. It took me a while to figure out that what I wanted is to use an **Existing interpreter**. Make sure to select the Python version inside the Anaconda folder. Like this, PyCharm will automatically index all the available site packages in the Anaconda folder. 
+Our project is going to be a Pure Python project. The important part is the interpreter. I remeber that by default this was set to a virtual environment. This might be what you want when working in a very specific project setting but most people probably want access to all the packages they installed in the normal environment. An evironment refers to certain Python version and some packages. It took me a while to figure out that what I wanted is to use an **Existing interpreter**. Make sure to select the Python version inside the Anaconda folder. Like this, PyCharm will automatically index all the available site packages in the Anaconda folder (usually /anaconda3/bin/python3.6). 
 
 Now you can write a simple Python script like this:
 {% highlight Python%}
