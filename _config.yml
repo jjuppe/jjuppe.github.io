@@ -15,7 +15,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>The key to artificial intelligence has always been the representation.<br> —Jeff Hawkins </p>
+     <p>Issues I have stumbled upon and thought were noteworthy to other practitioners as well</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> 
