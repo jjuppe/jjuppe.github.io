@@ -32,7 +32,7 @@ Afterwards, you just review the settings and and can click on launch. In order t
 
 After you have launched your instance, you can go to your instance overview to see which instances are running at the moment. 
 
-![]({{%site.baseurl%}}/assets/img/AWS-Instance-overview.png)
+![Instance Overview]({{%site.baseurl%}}/assets/img/AWS-Instance-overview.png)
 
 If you click on *Connect* directions and terminal commands to ssh into your instance are given. The easiest way is to cd to your *.pem file and then run:
 
@@ -64,7 +64,7 @@ ubuntu@ip-xxx-xx-xx-xxx:~$
 ```
 
 # Running a python script 
-To actually be able to run something you need to transfer a document to your cloud instance. To do this, also cd to your *.pem file and write the following command:
+To actually be able to run something you need to transfer data to your cloud instance. To do this, also cd to your *.pem file and write the following command:
 ```shell
 scp -i /path/my-key-pair.pem /path/SampleFile.txt ec2-user@c2-198-51-100-1.compute-1.amazonaws.com:/home/ubuntu/mypython/
 ```
@@ -111,16 +111,16 @@ which python
 
 Now that we have a functioning Python interpreter we can cd back to the folder of our python file. In the folder we can then run the script as you would normally do. 
 
-Congratulations you have run your fist script on your EC2 instance. 
+Congratulations, you have run your fist script on your EC2 instance. 
 
 With these tools you can run the training of your NN in the Cloud and enjoy the computing power Amazon and the likes provide at your disposal. 
 
 # Using screen
-One of the best discoveries that I made while learning about cloud computing was screen. 
+Another thing I want to share with you is screen. It is one of the best discoveries that I made while learning about cloud computing. 
 
 Screen is a full screen software program that allows you to run multiple terminal sessions inside a single terminal window manager and is usually already pre-installed on Ubuntu. This tool is very useful if you want to run different programs in different terminal shells so the output does not get mixed. Also, you can start a session to run your neural network and detach and reattach to this session as you like. This means the running of your script is not bound to your active ssh connection anymore. You start your training and  detach from the session. To check the progress of the training you simply reconnect to your instance and re-attach to the session.
 
 See this [post](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-screen-on-an-ubuntu-cloud-server) to learn more about screen commands. 
 
-What is your favorite cloud hosting provider and how do you train your neural networks?
+What is your favorite cloud hosting provider and on which setup do you train your neural networks?
 
