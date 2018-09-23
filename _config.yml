@@ -9,7 +9,7 @@ description: "Python, Machine Learning, Deep Learning & other stuff" # used by s
 theme_settings:
   # Meta
   title: Janis Juppe  # blog's title
-  avatar: assets/img/triangle.svg
+  avatar: assets/favicon.ico
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
