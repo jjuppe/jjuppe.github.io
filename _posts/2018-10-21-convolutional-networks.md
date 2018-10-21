@@ -95,7 +95,7 @@ $$f(x)= \max(0,x)$$
 
 It is a fairly simple function that thresholds values at zero. The purpose is to introduce non-linearity into the network. ReLU functions have been shown to speed up the convergence of the stochastic gradient. To learn more about other activation functions and ReLU, check [this](http://cs231n.github.io/neural-networks-1/) out.
 
-For the classification in the Fully-Connected Layer a different activation function will be used that is more suitable to the specific task (sigmoid function). 
+For the classification in the Fully-Connected Layer a different activation function will be used that is more suitable to the specific task (softmax function). 
 
 ### 3.3 Pooling Layer
 The pooling layer is a standard part of every CNN. It reduces the spatial size of the input and the number of parameters in the network. Like this it prevents overfitting on the training dataset and also diminishes computation. 
