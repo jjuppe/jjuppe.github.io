@@ -163,7 +163,6 @@ model_clf.fit(x_train, y_train, batch_size=24, epochs=10, validation_data=(x_tes
 
 ```
 
-Hopefully, you made it through this article. I noticed somewhere in the middle that it would be quite long but couldn't cut it way shorter without compromising the understanding of the concepts. 
 
 [CS231]: http://cs231n.github.io/
 [Neurons]: http://www.cs.bham.ac.uk/~pxt/NC/l2_JB.pdf
