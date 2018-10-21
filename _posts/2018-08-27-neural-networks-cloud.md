@@ -12,7 +12,7 @@ Neural Networks need a hell lot of computational power! This is what I realized 
 There are many reasons to set up an Amazon EC2 instance - for me it was to train a complex neural network with over 20 million parameters. The process to launch an instance is quite straight-forward. 
 To get started you need to create an account with Amazon Web Services. Once you have done this, move to the *Management Console*. In the Management Console please select *EC2* under *Compute*. 
 
-![Management Console]({{%site.baseurl%}}/assets/img/Management-Console.png)
+![Management Console]({{% site.baseurl %}}/assets/img/Management-Console.png)
 
 Then, click on *Launch Instance* to launch an instance. 
 
@@ -32,7 +32,7 @@ Afterwards, you just review the settings and and can click on launch. In order t
 
 After you have launched your instance, you can go to your instance overview to see which instances are running at the moment. 
 
-![Instance Overview]({{%site.baseurl%}}/assets/img/AWS-Instance-overview.png)
+![Instance Overview]({{% site.baseurl %}}/assets/img/AWS-Instance-overview.png)
 
 If you click on *Connect* directions and terminal commands to ssh into your instance are given. The easiest way is to cd to your *.pem file and then run:
 
