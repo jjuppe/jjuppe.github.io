@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Why you have to know about Convolutional Neural Networks... an introduction
+title: A Guide to understand Convolutional Neural Networks
 tags: [Neural Networks, CNN, Convolutional, Deep Learning]
+
 excerpt_separator: <!--more-->
 ---
 
-This is a high-level introduction to Convolutional Neural Networks (CNN). Convolutional Nets are very similar to regular Neural Networks (NN). However, the input to a Convolutional Net is implicitly assumed to be an image and the architecture also shows differences. CNNs are used for tasks like image classification or instance segmentation and have improved performance in these areas substantially in the past years. 
-<!--more-->
+Convolutional Neural Networks (CNN) are a state-of-the-art tool for Computer Vision tasks like image classification. They managed to improve performance for many image classification datasets in the past years. But what exactly are CNNs and how do they differ from conventional Neural Networks?
+<!--more--> In this article I will give you a high-level introduction in Convolutional Nets, their biological reference and how to build a CNN in Keras. 
 
 ## Overview
 The structure of this article is as follows: 
