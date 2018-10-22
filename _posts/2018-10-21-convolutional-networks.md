@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: A Guide to understand Convolutional Neural Networks
 tags: [Neural Networks, CNN, Convolutional, Deep Learning]
@@ -49,7 +49,7 @@ From the synapse the signal travels along the dendrites to the soma. There, all 
 In normal NNs the neurons are normally modelled in layers of neurons, the so-called hidden layers. The most common layer type is the fully-connected layer where neurons of adjacent layers are connected (every pair of neurons has a connection). This is different in CNN architectures. Neurons in a layer only connect to a small region of the previous layer. This is represented in the following picture (the squares that are connected to smaller squares in the next layer). Additionally, for image classification tasks, there is one (or multiple) fully-connected layer(s) at the end to make the class predictions. 
 
 ![CNN Architecture overview]({{% site.baseurl %}}/assets/img/CNN_architecture-overview.png)
-*Architecture of a CNN. — Source: [mathworks](https://www.mathworks.com/videos/introduction-to-deep-learning-what-are-convolutional-neural-networks--1489512765771.html)*
+*<br>Architecture of a CNN. — Source: [mathworks](https://www.mathworks.com/videos/introduction-to-deep-learning-what-are-convolutional-neural-networks--1489512765771.html)*
 
 ## 3 Layers in a Convolutional Net
 As mentioned above, the most common layers in Convolutional Neural Networks are Convolution, Pooling and Fully-Connected Layers. These layers are being stacked to form a ConvNet. A simple basic Architecture for ConvNet might look like this:
