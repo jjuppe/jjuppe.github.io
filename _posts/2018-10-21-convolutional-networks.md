@@ -26,7 +26,7 @@ I think it makes sense to include this part, as it explains where the ideas for 
 
 As babies we also had to learn to detect and label objects. Just like us an algorithm also has to see many (often millions) of pictures so that it is able to generalize and make predictions for pictures it hasn't seen before. 
 
-Computers perceive images in a different way than us humnas. Images are represented by 3-D arrays ($$height \times  width \times  depth$$). The height and width refer to those of the picture and the depth, the third dimension, refers to the three values necessary in th RGB color space to specify a color. For a computer, a picture therefore looks like 3D-Matrix like in the picture below. 
+Computers perceive images in a different way than us humans. Images are represented by 3-D arrays ($$height \times  width \times  depth$$). The height and width refer to those of the picture and the depth, the third dimension, refers to the three values necessary in the RGB color space to specify a color. For a computer, a picture therefore looks like 3D-Matrix like in the picture below. 
 
 ![How computers see images, source: http://cs231n.github.io/]({{% site.baseurl %}}/assets/img/computer-vision-cat.png)
 *<br>How computers see images, source: [http://cs231n.github.io/](http://cs231n.github.io/)*
@@ -46,7 +46,7 @@ Enough of biological neurons. The signals that travel along the axons are assume
 From the synapse the signal travels along the dendrites to the soma. There, all signals get summed up. Once a thertain threshold is reached within a limited time span the neuron fires. This firing is modelled with an activation function such as sigmoid $$\sigma(x) = 1/(1+ \exp^{-x})$$ function. The activation function adds non-linearity to the Neural Network. This in important since many real-life contexts require non-linear thinking.  
 
 ## 2 Architecture Overview
-In normal NN the neurons are normally modelled in layers of neurons, in so-called hidden layers. The most common layer type is the fully-connected layer where neurons of adjacent layers are fully connected (every pair of neurons has a connection). This is different in CNN architectures. Neurons in a layer only connect to a small region of the previous layer. This is represented in the following picture (the squares that are connected to smaller squares in the next layer). Additionally, for image classification tasks, there is a (or multiple with a Dropout Layer in the middle) fully-connected layer at the end to make the class predictions. 
+In normal NNs the neurons are normally modelled in layers of neurons, the so-called hidden layers. The most common layer type is the fully-connected layer where neurons of adjacent layers are connected (every pair of neurons has a connection). This is different in CNN architectures. Neurons in a layer only connect to a small region of the previous layer. This is represented in the following picture (the squares that are connected to smaller squares in the next layer). Additionally, for image classification tasks, there is one (or multiple) fully-connected layer(s) at the end to make the class predictions. 
 
 ![CNN Architecture overview]({{% site.baseurl %}}/assets/img/CNN_architecture-overview.png)
 *Architecture of a CNN. — Source: [mathworks](https://www.mathworks.com/videos/introduction-to-deep-learning-what-are-convolutional-neural-networks--1489512765771.html)*
@@ -63,7 +63,7 @@ Let's get a quick overview what the layers do:
 * **ReLU**: The Rectified Linear Unit is the activation function
 * **Fully-Connected Layer**: This layer computes the class scores. For example the MNIST dataset of digits contains 10 classes. 
 
-Let's have a more detailed look at each of these layers/function:
+Let's have a more detailed look at each of these layers/functions:
 ### 3.1 Convolutional Layer
 You can imagine a Convolutional Layer as a **filter** moving across the whole picture doing a matrix multiplication at every position to produce an **activation map**. The idea of CNNs is that these filters will learn to activate when they receive a visual feature such as an edge, or a blotch of color. These high-level features are usually learned in the first layers of the network. The later layers will recognize shapes and finally objects as for example a head. The animation below shows how the 3x3 filter, also called kernel in some sources, slides over the input of size 5x5 to preduce an output of size 3x3. Have a look and try to understand what happens.  
 
