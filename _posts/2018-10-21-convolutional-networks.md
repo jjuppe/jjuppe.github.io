@@ -2,7 +2,6 @@
 layout: post
 title: A Guide to understand Convolutional Neural Networks
 tags: [Neural Networks, CNN, Convolutional, Deep Learning]
-
 excerpt_separator: <!--more-->
 ---
 
