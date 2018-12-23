@@ -28,7 +28,7 @@ For many use cases you would want to add a response depending on an entity of th
 
 In order to use fulfillment for you intents you have to *enable webhook call for this intent* in the intent settings in the bottom:
 
-![Enable intent fulfillment]({{%site.baseurl%}}/assets/img/posts/dialogflow/fulfillment.png)
+![Enable intent fulfillment]({{% site.baseurl %}}/assets/img/posts/dialogflow/fulfillment.png)
 
 Once this is enabled you can skip to **Fulfillment** in the menu bar on the left of the page. In the bottom of the code you first have to define the function that handles your intent:
 
@@ -58,7 +58,7 @@ As you can see it is quite straightforward to add a response to your agent. Depe
 
 One of the best features in Dialogflow is that you can test everything out directly in the sidebar. Have a look at this: 
 
-![]({{%site.baseurl%}}/assets/img/posts/dialogflow/userInteraction.png)
+![The intent was matched correctly]({{%site.baseurl%}}/assets/img/posts/dialogflow/userInteraction.png)
 
 You can see that the intent was correctly mapped to my intent installPrinter2 (I know not that original). You can also see that Mac was successfully identified as the operating system and the correct response based on the OS was given. 
 
