@@ -54,11 +54,40 @@ function installPrinter(agent) {
   }
 ```
 
-As you can see it is quite straightforward to add a response to your agent. Depending on the entity *OS* we return the suitable help link. Make sure to deploy the service before you try it. 
+As you can see it is quite straightforward to add a response to your agent. Depending on the entity *OS* we return the suitable help link. Now you just have to deploy your agent in order to use it. 
 
 One of the best features in Dialogflow is that you can test everything out directly in the sidebar. Have a look at this: 
 
 ![]({{%site.baseurl%}}/assets/img/posts/dialogflow/userInteraction.png)
 
-I <3 broody
+You can see that the intent was correctly mapped to my intent installPrinter2 (I know not that original). You can also see that Mac was successfully identified as the operating system and the correct response based on the OS was given. 
+
+With the fulfillments you can basically specify the custom behaviour of your agent. And yes, I believe you are also supposed to have a lot of fun with it. See here for example our function for the random 9gag gifs.
+
+```javascript
+function gag9(agent) {
+      return new Promise((resolve, reject) => {
+        requestLib.get(`https://9gag.com/random`, (error, response, body) => {
+        let imgUrl = response.request.uri.href.split('/').pop();
+
+        let imgName = `http://img-9gag-fun.9cache.com/photo/${imgUrl}_700b.png`;
+        
+        agent.add(new Image(imgName));
+        resolve();
+       });
+    }); 
+  }
+```
+
+The only problem with this approach is that it won't actually work for GIFs. It will convert GIFs to a normal static image and then show that to the user. 
+
+## Integrations
+
+For my proof-of-concept at work, we added our agent to Slack. The integration is super easy and documented well [here](https://dialogflow.com/docs/integrations/slack). Dialogflow offers a number of other integrations, such as Facebook Messenger, Google Assistant and many more. It also has a speech-to-text option, where you can talk to the agent and get a response based on your request. 
+
+We have Dialogflow incredibly easy to set up and there are many ways in which you can optimize your agent in order to take it to the next level and get it production ready.
+
+I hope you liked this short report/tutorial on my first Chatbot. Feeld free to ask any questions or share your work & opinion in the comments section down below. 
+
+
 
