@@ -18,7 +18,7 @@ To quote Wikipedia: *Dialogflow is a Google-owned developer of human-computer in
 
 The underlying principle of Dialogflow is quite simple. The user gives an input and the agent tries to map that input to an intent. The mapping happens explicitly in Dialogflow, i.e. you have to specify sentences that match the intent for each intent. For example, the intent for installing a printer contains the following phrases:
 
-![Training phrases installPrinter intent]({{% site.baseurl %}}/assets/img/posts/dialogflow/installPrinter.png)
+![Training phrases installPrinter intent]({{% site.baseurl %}}/assets/img/Posts/Dialogflow/installPrinter.png)
 
 These phrases do not have to match the actual users input phrases 100%, Dialogflow will be able to do the match when they are close enough. As you can see, Mac and Windows are marked in pink in the photo. This means, that Dialogflow was able to recognize these words as so called **Entities**. Entities are used to pick out specific information from a user input. This might be things like a given name, location, date, OS system anf many more. You can also create entities by yourself. 
 
@@ -28,7 +28,7 @@ For many use cases you would want to add a response depending on an entity of th
 
 In order to use fulfillment for you intents you have to *enable webhook call for this intent* in the intent settings in the bottom:
 
-![Enable intent fulfillment]({{% site.baseurl %}}/assets/img/posts/dialogflow/fulfillment.png)
+![Enable intent fulfillment]({{% site.baseurl %}}/assets/img/Posts/Dialogflow/fulfillment.png)
 
 Once this is enabled you can skip to **Fulfillment** in the menu bar on the left of the page. In the bottom of the code you first have to define the function that handles your intent:
 
@@ -58,7 +58,7 @@ As you can see it is quite straightforward to add a response to your agent. Depe
 
 One of the best features in Dialogflow is that you can test everything out directly in the sidebar. Have a look at this: 
 
-![The intent was matched correctly]({{%site.baseurl%}}/assets/img/posts/dialogflow/userInteraction.png)
+![The intent was matched correctly]({{%site.baseurl%}}/assets/img/Posts/Dialogflow/userInteraction.png)
 
 You can see that the intent was correctly mapped to my intent installPrinter2 (I know not that original). You can also see that Mac was successfully identified as the operating system and the correct response based on the OS was given. 
 
