@@ -81,7 +81,7 @@ With the fulfillments you can basically specify the custom behaviour of your age
 
 ## Integrations
 
-For my proof-of-concept at work, we added our agent to Slack. The integration is super easy and documented well [here](https://dialogflow.com/docs/integrations/slack). Dialogflow offers a number of other integrations, such as Facebook Messenger, Google Assistant and many more. It also has a speech-to-text option, where you can talk to the agent and get a response based on your request. 
+For the proof-of-concept at work, we added our agent to Slack. In case you are not familiar with Slack: [Slack](https://slack.com/intl/de-de/) is a tool for team-collaboration that offers messaging, video calls, file sharing and many more features. The integration is super easy and documented well [here](https://dialogflow.com/docs/integrations/slack). Dialogflow offers a number of other integrations, such as Facebook Messenger, Google Assistant and many more. It also has a speech-to-text option, where you can talk to the agent and get a response based on your request. 
 
 We have Dialogflow incredibly easy to set up and there are many ways in which you can optimize your agent in order to take it to the next level and get it production ready.
 
