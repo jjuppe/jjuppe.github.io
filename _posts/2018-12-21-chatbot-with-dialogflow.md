@@ -12,7 +12,7 @@ My colleage, Tobias, and I had noticed that many colleagues post into the Slack 
 
 So, why not save some valuable of time and let Geoffrey handle these questions?! You might ask youself, who is Geoffrey? Geoffrey is our chatbot and aid in all things related to IT-support. You want to know how to install a printer under Windows or Mac? Ask Geoffrey! You want to know about the details of your company mobile contract? Geoffrey knows the answer. And if I just want to see a random GIF from 9gag? Yep, Geoffrey can do that, too.
 
-## The beginnings with Dialogflow
+## Dialogflow basics
 
 To quote Wikipedia: *Dialogflow is a Google-owned developer of human-computer interaction technologies based on natural language conversations.* Basically, it is a tool to build intelligent agents that can communicate with a user. Among the customers of Dialogflow there are some big names like KLM and Dominos. 
 
