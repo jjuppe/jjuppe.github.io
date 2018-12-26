@@ -6,7 +6,7 @@ feature-img: "assets/img/pexels/ai_bots.jpg"
 excerpt_separator: <!--more-->
 ---
 
-Recently, I got the chance at work to work on a project of my own choice for a day. We call these 24h Sprints and they are usually a great way to discover new technologies. And that's what I did with a colleague of mine. We wanted to build a chatbot with Dialogflow to help our internal company IT-support with a chatbot that could answer the most frequenty asked questions. 
+Recently, I got the chance at work to work on a project of my own choice for a day. We call these 24h Sprints and they are usually a great way to discover new technologies. And that's what I did with a colleague of mine. We wanted to build a chatbot with Dialogflow to help our internal company IT-support with a chatbot that could answer frequenty asked questions. 
 <!--more-->
 My colleage, Tobias, and I had noticed that many colleagues post into the Slack IT-Support channel asking similar questions. These questions were along the lines of: *If I make a call to Austria, how much does that cost?* / *How can I change my password when I am not connected to the company intranet?*
 
@@ -87,7 +87,7 @@ For my proof-of-concept at work, we added our agent to Slack. The integration is
 
 We have Dialogflow incredibly easy to set up and there are many ways in which you can optimize your agent in order to take it to the next level and get it production ready.
 
-I hope you liked this short report/tutorial on my first Chatbot. Feeld free to ask any questions or share your work & opinion in the comments section down below. 
+I hope you liked this short report/tutorial on my first Chatbot. Feel free to ask any questions or share your work & opinion in the comment section down below. 
 
 
 
