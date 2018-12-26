@@ -62,24 +62,22 @@ One of the best features in Dialogflow is that you can test everything out direc
 
 You can see that the intent was correctly mapped to my intent installPrinter2 (I know not that original). You can also see that Mac was successfully identified as the operating system and the correct response based on the OS was given. 
 
-With the fulfillments you can basically specify the custom behaviour of your agent. And yes, I believe you are also supposed to have a lot of fun with it. See here for example our function for the random 9gag gifs.
+With the fulfillments you can basically specify the custom behaviour of your agent. And yes, I believe you are also supposed to have a lot of fun with it. See here for example our function for the random gifs provided by the giphy interface.
 
 ```javascript
-function gag9(agent) {
+  function giphy(agent) {
+      var api_key = "...";
       return new Promise((resolve, reject) => {
-        requestLib.get(`https://9gag.com/random`, (error, response, body) => {
-        let imgUrl = response.request.uri.href.split('/').pop();
-
-        let imgName = `http://img-9gag-fun.9cache.com/photo/${imgUrl}_700b.png`;
+        requestLib.get(`https://api.giphy.com/v1/gifs/random?api_key=${api_key}`, (error, 			response, body) => {
+        	console.log(body);
+        	var url = JSON.parse(body).data.images.downsized.url.replace("media2", "i");
         
-        agent.add(new Image(imgName));
-        resolve();
+         	agent.add(new Image(url));
+         	resolve();
        });
     }); 
   }
 ```
-
-The only problem with this approach is that it won't actually work for GIFs. It will convert GIFs to a normal static image and then show that to the user. 
 
 ## Integrations
 
