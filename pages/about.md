@@ -19,3 +19,5 @@ Feel free to contact me via email if you have ideas for a collaboration. I am al
             welcomeMessage: 'Welcome to bashme, the first command line interface about you. Please type `help` to get started'
         });
  </script>
+
+test
